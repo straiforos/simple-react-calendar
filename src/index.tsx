@@ -1,1 +1,2 @@
-export { default } from './calendar/calendar'
+import { Calendar } from './calendar/calendar'
+export default Calendar

@@ -95,7 +95,7 @@ type State = {
 
 // TODO: FC Rewrite
 /* eslint-disable react/require-optimization */
-export default class Calendar extends Component<Props, State> {
+export class Calendar extends Component<Props, State> {
   static defaultProps = {
     blockClassName: BLOCK_CLASS_NAME,
     daysOfWeek: DAYS_OF_WEEK,
